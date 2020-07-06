@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(34,193,195,1)
+}
+
+.container{
+    max-width: 20%;
+    max-height: 20%;
+    margin: 100px auto;
+}
+
+.title{
+    display: flex;
+    color: pink;
+    margin: 20px auto;
+    justify-content: center;
+}
+#copy{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: yellow;
+    font-size: 24px;
+    margin: 100px;
+    transition: .5s;
+ }
+
+
+ .disappear{display: none;}
+
+ .reveal{display: normal}
+
+ .more-scroll{
+     height: 500px;
+ }
